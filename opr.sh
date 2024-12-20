@@ -12,7 +12,7 @@ choice=$(cat nadadb/temp/.opttemp)
 #if [[ -n $chioce ]]
 #then
 case $choice in
-	1) whiptail --msgbox "Select" 20 40
+	1) . select.sh
 		;;
 	2) . insert.sh
 		;;
